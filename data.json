@@ -1,0 +1,28 @@
+{
+	"data": {
+		
+		"cocktails": {
+               "0": {
+				"name": "Tokyo ice tee",
+				"picture": "Tokyo_ice_tee",
+
+				"ingredients": [
+					"Developing a Website Builder.",
+					"Using REACT with NEXTJS, for styling MATERIAL UI (MUI), STRAPI for contains management system (CMS), for animation FRAMER MOTION and directly SVG’s manipulation."
+				]
+			},
+			"1": {
+				"name": "Hung cay",
+				"picture": "Hung_cay",
+
+				"ingredients": [
+					"Developing a Website Builder.",
+					"Using REACT with NEXTJS, for styling MATERIAL UI (MUI), STRAPI for contains management system (CMS), for animation FRAMER MOTION and directly SVG’s manipulation."
+				]
+			}
+			
+              
+		}
+		
+	}
+}
