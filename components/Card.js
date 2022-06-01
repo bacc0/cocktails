@@ -20,7 +20,8 @@ const Card = (props) => {
 
      return (
           <div onClick={handleClick_close}>
-               <span className={styles.title}> {name} </span>
+               <div className={styles.title}> {name} </div>
+            
                <div
                     className={styles.container}
                     style={{
