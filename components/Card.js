@@ -36,9 +36,14 @@ const Card = (props) => {
 
                     {ingVisible && (
                          <div className={styles.more_info}>
-                              <p>hhhhjhj</p>
-                              <p>hhhhjhj</p>
-                              <p>hhhhjhj</p>
+
+                              <p>1 part Cazadores Tequila</p>
+                              <p>½ part triple sec liqueur</p>
+                              <p>½ part lime juice</p>
+                              <p>1 lime wedge</p>
+                              <p>Salt</p>
+                              <p>Cubed ice</p>
+                              
                          </div>
                     )}
 
