@@ -43,7 +43,11 @@ const Card = (props) => {
                               <p>1 lime wedge</p>
                               <p>Salt</p>
                               <p>Cubed ice</p>
-                              
+                              <p>Cubed ice 2</p>
+                              <p>Cubed ice 3</p>
+                              <p>Cubed ice 4</p>
+                              <p>Cubed ice 5</p>
+                             
                          </div>
                     )}
 

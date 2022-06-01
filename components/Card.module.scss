@@ -22,7 +22,7 @@
      border: 1px solid #eaeaea;
      border-radius: 10px;
      transition: color 0.15s ease, border-color 0.15s ease;
-     
+     overflow: scroll;
      
      
      .more_info {
@@ -33,6 +33,7 @@
           -webkit-backdrop-filter: blur(10px);
           backdrop-filter: blur(10px);
           font-size: 1.4rem;
+          
      }
 }
 
