@@ -95,15 +95,18 @@ export default function Home() {
 
                <footer className={styles.footer}>
                     <a
-                         href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+                         href="https://www.houseofho.co.uk"
                          target="_blank"
                          rel="noopener noreferrer"
                     >
-                         Powered by{' '}Veselin
-                         <span className={styles.logo}>
+                         Powered by{' '}
+                         <div    style={{ color: '#db0000' }} >
+                              THE HOUSE OF HÔ
+                              </div>
+                         <div className={styles.logo}>
                               {/* <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} /> */}
 
-                         </span>
+                         </div>
                     </a>
                </footer>
           </div>
