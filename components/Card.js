@@ -11,8 +11,15 @@ const Card = (props) => {
      const handleClick = () => {
           setIngVisible(!ingVisible)
      }
+     const handleClick_close = () => {
+          if( ingVisible === true ) { 
+               setIngVisible(false)
+          }
+          
+     }
+
      return (
-          <div>
+          <div onClick={handleClick_close}>
                <span className={styles.title}> {name} </span>
                <div
                     className={styles.container}
@@ -24,16 +31,7 @@ const Card = (props) => {
                >
 
 
-                    <div className={styles.button_container}>
-                         <button
-                              onClick={handleClick}
-                              style={{
-                                   backgroundColor: ingVisible ? '#990000cc' : '#00b79f99'
-                              }}
-                         >
-                              {ingVisible ? 'Close' : 'More'}
-                         </button>
-                         </div>
+                    
 
                     {ingVisible && (
                          <div className={styles.more_info}>
@@ -43,6 +41,19 @@ const Card = (props) => {
                          </div>
                     )}
 
+               </div>
+
+               <div className={styles.button_container}>
+                    <button
+                         onClick={handleClick}
+                         style={{
+                              border: `2px solid ${ingVisible ? '#db0000' : '#0070f3'}`,
+                              color: `${ingVisible ? '#db0000' : '#0070f3'}`,
+                              backgroundColor: 'transparent',
+                         }}
+                    >
+                         {ingVisible ? 'Close' : 'More'}
+                    </button>
                </div>
           </div>
      )

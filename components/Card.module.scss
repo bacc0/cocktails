@@ -4,6 +4,7 @@
      font-size: 2.2rem;
      border-radius: 11px;
      font-weight: 200;
+    
 }
 
 .container {
@@ -23,27 +24,7 @@
      transition: color 0.15s ease, border-color 0.15s ease;
 
 
-     .button_container {
-          display: flex;
-
-          justify-content: flex-end;
-
-          button {
-               position: relative;
-               width: 90px;
-               height: 90px;
-               border-radius: 11px;
-               top: -20px;
-               left: 20px;
-               border: 0;
-               border: 0.3px solid #FFFFFF;
-               color: #FFFFFF;
-               font-size: 0.9rem;
-               text-shadow: 0 0 6px #000000;
-               font-weight: 400;
-          }
-     }
-
+ 
      .more_info {
           width: 100%;
           background-color: #ffffff99;
@@ -54,11 +35,32 @@
      }
 }
 
+.button_container {
+     display: flex;
+
+     justify-content: center;
+
+     button {
+          width: 130px;
+          height: 50px;
+          border-radius: 40px;
+         
+          border: 0;
+          
+          // color: #FFFFFF;
+          font-size: 1rem;
+          // text-shadow: 0 0 6px #000000;
+          font-weight: 400;
+          margin-bottom: 70px;
+          cursor: pointer;
+     }
+}
+
 .container:hover,
 .container:focus,
 .container:active {
      //   color: #0070f3;
-     border-color: #00ab92;
+     border-color: #0070f3;
 }
 
 .container:last-child {
