@@ -4,18 +4,24 @@ import { useEffect, useState } from 'react';
 
 const Card = (props) => {
 
-     const [ingVisible, setIngVisible] = useState(false);
+     const [more_infoVisible, setMore_infoVisible] = useState(false);
+     const [imageOpacity, setImageOpacity] = useState(0);
+
+     useEffect(() => {
+          setInterval(() => {
+               setImageOpacity(1)
+          }, 200);
+     }, []);
 
      const { name, picture, } = props;
 
      const handleClick = () => {
-          setIngVisible(!ingVisible)
+          setMore_infoVisible(!more_infoVisible)
      }
      const handleClick_close = () => {
-          if( ingVisible === true ) { 
-               setIngVisible(false)
+          if( more_infoVisible === true ) { 
+               setMore_infoVisible(false)
           }
-          
      }
 
      return (
@@ -25,16 +31,18 @@ const Card = (props) => {
                <div
                     className={styles.container}
                     style={{
+                         opacity: imageOpacity,
+                         transition: 'opacity 1.5s',
                          backgroundColor: '#FFFFFF00',
                          backgroundImage: `url('/pics_cocktails/${picture}.jpeg')`,
-                         backgroundSize: 'cover'
+                         backgroundSize: 'cover',
                     }}
                >
 
 
                     
 
-                    {ingVisible && (
+                    {more_infoVisible && (
                          <div className={styles.more_info}>
 
                               <p>1 part Cazadores Tequila</p>
@@ -57,12 +65,12 @@ const Card = (props) => {
                     <button
                          onClick={handleClick}
                          style={{
-                              border: `2px solid ${ingVisible ? '#db0000' : '#0070f3'}`,
-                              color: `${ingVisible ? '#db0000' : '#0070f3'}`,
+                              border: `2px solid ${more_infoVisible ? '#db0000' : '#0070f3'}`,
+                              color: `${more_infoVisible ? '#db0000' : '#0070f3'}`,
                               backgroundColor: 'transparent',
                          }}
                     >
-                         {ingVisible ? 'Close' : 'More'}
+                         {more_infoVisible ? 'Close' : 'More'}
                     </button>
                </div>
           </div>
