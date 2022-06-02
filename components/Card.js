@@ -13,7 +13,7 @@ const Card = (props) => {
           }, 200);
      }, []);
 
-     const { name, picture, } = props;
+     const { name, picture, ingredients } = props;
 
      const handleClick = () => {
           setMore_infoVisible(!more_infoVisible)
@@ -40,7 +40,6 @@ const Card = (props) => {
                          border: `0.5px solid ${more_infoVisible ? '#838383' : '#FFFFFF'}`
                     }}
                >
-
                     {more_infoVisible && (
                          <div 
                               className={styles.more_info}
@@ -49,17 +48,13 @@ const Card = (props) => {
                                    
                                  }}
                          >
-
-                              <p>1 part Cazadores Tequila</p>
-                              <p>½ part triple sec liqueur</p>
-                              <p>½ part lime juice</p>
-                              <p>1 lime wedge</p>
-                              <p>Salt</p>
-                              <p>Cubed ice</p>
-                              <p>Cubed ice 2</p>
-                              <p>Cubed ice 3</p>
-                              <p>Cubed ice 4</p>
-                              <p>Cubed ice 5</p>
+                              {
+                                   ingredients.map((el) =>
+                                        <p key={el}>
+                                             {el}
+                                        </p>
+                                   )
+                              }
                              
                          </div>
                     )}

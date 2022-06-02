@@ -1,28 +1,205 @@
-{
-	"data": {
-		
-		"cocktails": {
-               "0": {
-				"name": "Tokyo ice tee",
-				"picture": "Tokyo_ice_tee",
-
-				"ingredients": [
-					"Developing a Website Builder.",
-					"Using REACT with NEXTJS, for styling MATERIAL UI (MUI), STRAPI for contains management system (CMS), for animation FRAMER MOTION and directly SVG’s manipulation."
-				]
-			},
-			"1": {
-				"name": "Hung cay",
-				"picture": "Hung_cay",
-
-				"ingredients": [
-					"Developing a Website Builder.",
-					"Using REACT with NEXTJS, for styling MATERIAL UI (MUI), STRAPI for contains management system (CMS), for animation FRAMER MOTION and directly SVG’s manipulation."
-				]
-			}
-			
-              
-		}
-		
+[{
+		"name": "Tokyo ice tee",
+		"picture": "Tokyo_ice_tee",
+		"ingredients": [
+			["1 part"," - ", "Cazadores Tequila"],
+			["½ part", "Triple Sec Liqueur"],
+			["½ part", "Lime Juice"],
+			["1", "lime wedge"],
+			["Salt"],
+			["Cubed Ice"],
+			["Cubed Ice"],
+			["Cubed Ice"],
+			["Cubed Ice"],
+			["Cubed Ice"],
+			["Cubed Ice"]
+		]
+	},
+	{
+		"name": "Saigon Lanton",
+		"picture": "Saigon_Lanton",
+		"ingredients": [
+			["1 part"," - ", "Cazadores Tequila"],
+			["½ part", "Triple Sec Liqueur"],
+			["½ part", "Lime Juice"],
+			["1", "lime wedge"],
+			["Salt"],
+			["Cubed Ice"],
+			["Cubed Ice"],
+			["Cubed Ice"],
+			["Cubed Ice"],
+			["Cubed Ice"],
+			["Cubed Ice"]
+		]
+	},
+	{
+		"name": "Cham Island",
+		"picture": "Cham_Island",
+		"ingredients": [
+			["1 part"," - ", "Cazadores Tequila"],
+			["½ part", "Triple Sec Liqueur"],
+			["½ part", "Lime Juice"],
+			["1", "lime wedge"],
+			["Salt"],
+			["Cubed Ice"],
+			["Cubed Ice"],
+			["Cubed Ice"],
+			["Cubed Ice"],
+			["Cubed Ice"],
+			["Cubed Ice"]
+		]
+	},
+	{
+		"name": "Hung Cay",
+		"picture": "Hung_cay",
+		"ingredients": [
+			["1 part"," - ", "Cazadores Tequila"],
+			["½ part", "Triple Sec Liqueur"],
+			["½ part", "Lime Juice"],
+			["1", "lime wedge"],
+			["Salt"],
+			["Cubed Ice"],
+			["Cubed Ice"],
+			["Cubed Ice"],
+			["Cubed Ice"],
+			["Cubed Ice"],
+			["Cubed Ice"]
+		]
+	},
+	{
+		"name": "His Pearl Martini",
+		"picture": "His_Pearl_Martini",
+		"ingredients": [
+			["1 part"," - ", "Cazadores Tequila"],
+			["½ part", "Triple Sec Liqueur"],
+			["½ part", "Lime Juice"],
+			["1", "lime wedge"],
+			["Salt"],
+			["Cubed Ice"],
+			["Cubed Ice"],
+			["Cubed Ice"],
+			["Cubed Ice"],
+			["Cubed Ice"],
+			["Cubed Ice"]
+		]
+	},
+	{
+		"name": "Espresso Martini",
+		"picture": "Espresso_Martini",
+		"ingredients": [
+			["1 part"," - ", "Cazadores Tequila"],
+			["½ part", "Triple Sec Liqueur"],
+			["½ part", "Lime Juice"],
+			["1", "lime wedge"],
+			["Salt"],
+			["Cubed Ice"],
+			["Cubed Ice"],
+			["Cubed Ice"],
+			["Cubed Ice"],
+			["Cubed Ice"],
+			["Cubed Ice"]
+		]
+	},
+	{
+		"name": "Trainor Tan",
+		"picture": "Trainor_Tan",
+		"ingredients": [
+			["1 part"," - ", "Cazadores Tequila"],
+			["½ part", "Triple Sec Liqueur"],
+			["½ part", "Lime Juice"],
+			["1", "lime wedge"],
+			["Salt"],
+			["Cubed Ice"],
+			["Cubed Ice"],
+			["Cubed Ice"],
+			["Cubed Ice"],
+			["Cubed Ice"],
+			["Cubed Ice"]
+		]
+	},
+	{
+		"name": "Watermelon Martini",
+		"picture": "Watermelon_Martini",
+		"ingredients": [
+			["1 part"," - ", "Cazadores Tequila"],
+			["½ part", "Triple Sec Liqueur"],
+			["½ part", "Lime Juice"],
+			["1", "lime wedge"],
+			["Salt"],
+			["Cubed Ice"],
+			["Cubed Ice"],
+			["Cubed Ice"],
+			["Cubed Ice"],
+			["Cubed Ice"],
+			["Cubed Ice"]
+		]
+	},
+	{
+		"name": "Negroni",
+		"picture": "Negroni",
+		"ingredients": [
+			["1 part"," - ", "Cazadores Tequila"],
+			["½ part", "Triple Sec Liqueur"],
+			["½ part", "Lime Juice"],
+			["1", "lime wedge"],
+			["Salt"],
+			["Cubed Ice"],
+			["Cubed Ice"],
+			["Cubed Ice"],
+			["Cubed Ice"],
+			["Cubed Ice"],
+			["Cubed Ice"]
+		]
+	},
+	{
+		"name": "Nha Trang Breeze",
+		"picture": "Nha_Trang_Breeze",
+		"ingredients": [
+			["1 part"," - ", "Cazadores Tequila"],
+			["½ part", "Triple Sec Liqueur"],
+			["½ part", "Lime Juice"],
+			["1", "lime wedge"],
+			["Salt"],
+			["Cubed Ice"],
+			["Cubed Ice"],
+			["Cubed Ice"],
+			["Cubed Ice"],
+			["Cubed Ice"],
+			["Cubed Ice"]
+		]
+	},
+	{
+		"name": "Ap Erik Spirits",
+		"picture": "Ap_erik_spirits",
+		"ingredients": [
+			["1 part"," - ", "Cazadores Tequila"],
+			["½ part", "Triple Sec Liqueur"],
+			["½ part", "Lime Juice"],
+			["1", "lime wedge"],
+			["Salt"],
+			["Cubed Ice"],
+			["Cubed Ice"],
+			["Cubed Ice"],
+			["Cubed Ice"],
+			["Cubed Ice"],
+			["Cubed Ice"]
+		]
+	},
+	{
+		"name": "Pornostar Martini",
+		"picture": "Pornostar_martini",
+		"ingredients": [
+			["1 part"," - ", "Cazadores Tequila"],
+			["½ part", "Triple Sec Liqueur"],
+			["½ part", "Lime Juice"],
+			["1", "lime wedge"],
+			["Salt"],
+			["Cubed Ice"],
+			["Cubed Ice"],
+			["Cubed Ice"],
+			["Cubed Ice"],
+			["Cubed Ice"],
+			["Cubed Ice"]
+		]
 	}
-}
+]
