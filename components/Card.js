@@ -4,8 +4,9 @@ import { useEffect, useState } from 'react';
 
 const Card = (props) => {
 
-     const [more_infoVisible, setMore_infoVisible] = useState(false);
      const [imageOpacity, setImageOpacity] = useState(0);
+     const [more_infoVisible, setMore_infoVisible] = useState(false);
+     const [positionMore_info, setPositionMore_info] = useState(330);
 
      useEffect(() => {
           setInterval(() => {
@@ -17,10 +18,14 @@ const Card = (props) => {
 
      const handleClick = () => {
           setMore_infoVisible(!more_infoVisible)
+
+          setPositionMore_info(0)
+        
      }
      const handleClick_close = () => {
           if( more_infoVisible === true ) { 
                setMore_infoVisible(false)
+              
           }
      }
 
@@ -36,14 +41,18 @@ const Card = (props) => {
                          backgroundColor: '#FFFFFF00',
                          backgroundImage: `url('/pics_cocktails/${picture}.jpeg')`,
                          backgroundSize: 'cover',
+                         border: `1px solid ${more_infoVisible ? '#db0000' : '#FFFFFF'}`
                     }}
                >
 
-
-                    
-
                     {more_infoVisible && (
-                         <div className={styles.more_info}>
+                         <div 
+                              className={styles.more_info}
+                                 style={{
+                                    position: 'relative',
+                                   
+                                 }}
+                         >
 
                               <p>1 part Cazadores Tequila</p>
                               <p>½ part triple sec liqueur</p>
