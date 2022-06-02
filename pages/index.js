@@ -39,14 +39,7 @@ const json = {
 
 export default function Home() {
 
-     const [load, setLoad] = useState(false);
 
-     useEffect(() => {
-
-          setInterval(() => {
-               setLoad(true);
-          }, 2000);
-     }, []);
 
      const title = (
           <h1 className={styles.title}>
@@ -55,29 +48,12 @@ export default function Home() {
      )
      const description = (
           <p className={styles.description}>
-               {!load && (
-                    <Typewriter
-                         words={['']}
-                         loop={1}
-                         cursor
-                         cursorStyle='-'
-                         typeSpeed={60}
-                         deleteSpeed={40}
-                         delaySpeed={200}
-                    />
-
-               )}
-               {load && (
-                    <Typewriter
-                         words={['How to make cocktails']}
-                         loop={1}
-                         cursor
-                         cursorStyle=''
-                         typeSpeed={60}
-                         deleteSpeed={40}
-                         delaySpeed={200}
-                    />
-               )}
+               <Typewriter
+                    words={['How to make cocktails']}
+                    cursor
+                    cursorStyle='_'
+                    typeSpeed={80}
+               />
           </p>
      )
 
