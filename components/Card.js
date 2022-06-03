@@ -51,16 +51,38 @@ const Card = (props) => {
                               {
                                    ingredients.map((el) =>
                                         <p key={el}>
-                                          
+
                                              {
-                                                  el.length === 2
+                                                  el.length === 3
                                                        ? <div className={styles.container_parts}>
                                                             <div className={styles.parts}>
                                                                  {el[0]}
                                                             </div>
-                                                            <div>{el[1]}</div>
-                                                        </div>
-                                                       : <span className={styles.secondary}>{el}</span>
+
+                                                            <div className={styles.parts_mid_1}>
+                                                                 {el[1]}
+                                                            </div>
+                                                            <div className={styles.parts_last}>
+                                                                 {el[2]}
+                                                            </div>
+                                                       </div>
+                                                       : el.length === 2
+                                                            ? <div
+                                                                 className={styles.container_parts}
+                                                            >
+                                                                 <div className={styles.parts}>
+                                                                      {el[0]}
+                                                                 </div>
+                                                                 <div className={styles.parts_mid_2}>      {el[1]}
+                                                                 </div>
+                                                            </div>
+
+                                                            : <>
+                                                            
+                                                            <span className={styles.secondary}>
+                                                                 {el}
+                                                            </span>
+                                                            </>
                                              }
                                         </p>
                                    )
