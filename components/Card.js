@@ -20,7 +20,7 @@ const Card = (props) => {
      }
 
      const handleClick_close = () => {
-          if( more_infoVisible === true ) { 
+          if (more_infoVisible === true) {
                setMore_infoVisible(false)
           }
      }
@@ -28,7 +28,7 @@ const Card = (props) => {
      return (
           <div onClick={handleClick_close}>
                <div className={styles.title}> {name} </div>
-            
+
                <div
                     className={styles.container}
                     style={{
@@ -41,21 +41,31 @@ const Card = (props) => {
                     }}
                >
                     {more_infoVisible && (
-                         <div 
+                         <div
                               className={styles.more_info}
-                                 style={{
-                                    position: 'relative',
-                                   
-                                 }}
+                              style={{
+                                   position: 'relative',
+
+                              }}
                          >
                               {
                                    ingredients.map((el) =>
                                         <p key={el}>
-                                             {el}
+                                          
+                                             {
+                                                  el.length === 2
+                                                       ? <>
+                                                            <span className={styles.parts}>
+                                                                 {el[0]}
+                                                            </span>
+                                                            {el[1]}
+                                                        </>
+                                                       : <span className={styles.secondary}>{el}</span>
+                                             }
                                         </p>
                                    )
                               }
-                             
+
                          </div>
                     )}
 
