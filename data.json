@@ -1,5 +1,5 @@
 [{
-		"name": "Tokyo ice tee",
+		"name": "tokyo ice tee",
 		"picture": "Tokyo_ice_tee",
 		"ingredients": [
 			["1", "Cazadores Tequila"],
@@ -16,7 +16,7 @@
 		]
 	},
 	{
-		"name": "Saigon Lanton",
+		"name": "saigon lanton",
 		"picture": "Saigon_Lanton",
 		"ingredients": [
 			["1", "Cazadores Tequila"],
@@ -33,7 +33,7 @@
 		]
 	},
 	{
-		"name": "Cham Island",
+		"name": "cham island",
 		"picture": "Cham_Island",
 		"ingredients": [
 			["1", "Cazadores Tequila"],
@@ -50,7 +50,7 @@
 		]
 	},
 	{
-		"name": "Hung Cay",
+		"name": "hung cay",
 		"picture": "Hung_cay",
 		"ingredients": [
 			["1", "Cazadores Tequila"],
@@ -67,7 +67,7 @@
 		]
 	},
 	{
-		"name": "His Pearl Martini",
+		"name": "his pearl martini",
 		"picture": "His_Pearl_Martini",
 		"ingredients": [
 			["1", "Cazadores Tequila"],
@@ -84,7 +84,7 @@
 		]
 	},
 	{
-		"name": "Espresso Martini",
+		"name": "espresso martini",
 		"picture": "Espresso_Martini",
 		"ingredients": [
 			["1", "Cazadores Tequila"],
@@ -101,7 +101,7 @@
 		]
 	},
 	{
-		"name": "Trainor Tan",
+		"name": "trainor tan",
 		"picture": "Trainor_Tan",
 		"ingredients": [
 			["1", "Cazadores Tequila"],
@@ -118,7 +118,7 @@
 		]
 	},
 	{
-		"name": "Watermelon Martini",
+		"name": "watermelon martini",
 		"picture": "Watermelon_Martini",
 		"ingredients": [
 			["1", "Cazadores Tequila"],
@@ -135,7 +135,7 @@
 		]
 	},
 	{
-		"name": "Negroni",
+		"name": "negroni ",
 		"picture": "Negroni",
 		"ingredients": [
 			["1", "Cazadores Tequila"],
@@ -152,7 +152,7 @@
 		]
 	},
 	{
-		"name": "Nha Trang Breeze",
+		"name": "nha trang breeze",
 		"picture": "Nha_Trang_Breeze",
 		"ingredients": [
 			["1", "Cazadores Tequila"],
@@ -169,7 +169,7 @@
 		]
 	},
 	{
-		"name": "Ap Erik Spirits",
+		"name": "ap erik spirits",
 		"picture": "Ap_erik_spirits",
 		"ingredients": [
 			["1", "Cazadores Tequila"],
@@ -186,7 +186,7 @@
 		]
 	},
 	{
-		"name": "Pornostar Martini",
+		"name": "pornostar martini",
 		"picture": "Pornostar_martini",
 		"ingredients": [
 			["1", "Cazadores Tequila"],

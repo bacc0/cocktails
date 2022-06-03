@@ -5,7 +5,7 @@ import styles from '../styles/Home.module.scss'
 import Card from '../components/Card'
 import { Typewriter } from 'react-simple-typewriter';
 
-import json from '../data.json';
+import JSON from '../data.json';
 
 
 export default function Home() {
@@ -31,7 +31,8 @@ export default function Home() {
      const main = (
           <div className={styles.grid}>
                {
-                    json.map((el) =>
+                    // JSON.filter(el => el.name.includes(' ')).map((el) =>
+                    JSON.map((el) =>
                          <div key={el.name}>
                               <Card
                                    name={el.name}

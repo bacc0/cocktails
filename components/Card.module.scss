@@ -4,6 +4,7 @@
      font-size: 2.2rem;
      border-radius: 11px;
      font-weight: 200;
+     text-transform: capitalize;
 }
 
 .container {
@@ -30,6 +31,7 @@
           -webkit-backdrop-filter: blur(10px);
           backdrop-filter: blur(10px);
           font-size: 1.4rem;
+          text-transform: uppercase;
 
           .parts {
                font-weight: 900;
