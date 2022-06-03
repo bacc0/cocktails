@@ -54,12 +54,12 @@ const Card = (props) => {
                                           
                                              {
                                                   el.length === 2
-                                                       ? <>
-                                                            <span className={styles.parts}>
+                                                       ? <div className={styles.container_parts}>
+                                                            <div className={styles.parts}>
                                                                  {el[0]}
-                                                            </span>
-                                                            {el[1]}
-                                                        </>
+                                                            </div>
+                                                            <div>{el[1]}</div>
+                                                        </div>
                                                        : <span className={styles.secondary}>{el}</span>
                                              }
                                         </p>
